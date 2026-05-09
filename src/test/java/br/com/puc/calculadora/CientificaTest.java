@@ -1,4 +1,4 @@
-package java.br.com.puc.calculadora;
+package br.com.puc.calculadora;
 
 import br.com.puc.calculadora.Cientifica;
 import org.junit.jupiter.api.Test;
