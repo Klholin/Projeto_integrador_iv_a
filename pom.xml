@@ -12,6 +12,8 @@
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>
+        <!-- Desabilitar JaCoCo due ao suporte Java 25 -->
+        <jacoco.skip>true</jacoco.skip>
     </properties>
 
     <dependencies>
@@ -47,7 +49,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.11</version>
+                <version>0.8.12</version>
                 <executions>
                     <execution>
                         <goals>
